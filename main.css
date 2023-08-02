@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.content {
+    /* background-color: rgb(234, 241, 243); */
+    background-color: #f0f2f5;
+    height: 720px;
+    display: flex;
+
+}
+
+.logo {
+    height: 400px;
+    width: 500px;
+    /* border: 1px solid red; */
+    color: #1877f2;
+    font-style: bold;
+    font-size: 30px;
+    /* margin: 100px; */
+    margin-left: 440px;
+    margin-top: 100px;
+    padding-top: 90px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.underlogo {
+    font-size: 25px;
+    color: black;
+    margin-top: 10px;
+    font-family: 'Ruda', sans-serif;
+    width: 420px;
+}
+
+.login {
+    width: 396px;
+    height: 350px;
+    border-radius: 8px;
+    margin: 75px;
+    margin-top: 130px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+}
+
+#email {
+    height: 50px;
+    width: 360px;
+    padding: 0px 20px;
+    line-height: 16px;
+    border: 1.5px solid #dddfe2;
+    margin: 15px;
+    font-size: 17px;
+    border-radius: 6px;
+}
+
+#email:focus
+{
+    outline: 1px solid #1877f2;
+}
+
+
+
+#Password {
+    height: 50px;
+    width: 360px;
+    padding: 0px 20px;
+    line-height: 16px;
+    border: 1.5px solid #dddfe2;
+    margin: 15px;
+    margin-top: -1px;
+    font-size: 17px;
+    border-radius: 6px;
+}
+
+#Password:focus
+{
+    outline: 1px solid #1877f2;
+}
+
+
+#loginbutt {
+    background-color: #1877f2;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    width: 360px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.forget {
+    text-align: center;
+    margin-top: 20px;
+    /* border: 1px solid #ddd; */
+}
+
+.forget a {
+    text-decoration: none;
+    color: #1877f2;
+    font-family: 'Ruda', sans-serif;
+    font-size: 14px;
+    
+}
+
+.line {
+    border-top: 1px solid lightgray;
+    /* margin-top: 20px; */
+    width: 350px;
+    margin: 20px auto;
+}
+
+.create-new button {
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    height: 45px;
+    font-size: 17px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.create-new {
+    display: flex;
+    justify-content: center;
+}
+
+.celeb {
+    margin-top: 60px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.celeb a {
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+}
+
+.celeb p {
+    font-family: 'Mulish', sans-serif;
+    color: black;
+    font-size: 14px;
+}
+
+footer {
+    /* background-color: red; */
+    height: 240px;
+}
+
+.lang-select {
+    width: 1100px;
+    /* border: 1px solid black; */
+    height: 100%;
+    margin: 0 auto;
+}
+
+.first {
+    margin: 30px;
+    /* border: 1px solid black; */
+}
+
+.first ul {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.first ul li {
+    padding: 5px;
+    list-style: none;
+}
+
+.first ul li a {
+    text-decoration: none;
+    color: #8a8d91;
+    font-size: 12px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+}
+
+.english {
+    font-weight: bolder;
+    color: black;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+}
+
+.line2 {
+    border-top: 1px solid lightgray;
+    width: 1040px;
+    margin: -20px auto;
+}
+
+.second {
+    /* border: 1px solid lightgray; */
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.second ul {
+    display: grid;
+    grid-template-columns: repeat(14, 70px);
+    row-gap: 10px;
+}
+
+.second ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #8a8d91;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.second ul li {
+    list-style: none;
+}
+
+#only {
+    margin-top: 50px;
+    color: lightgray;
+    font-family: 'Ruda', sans-serif;
+}
